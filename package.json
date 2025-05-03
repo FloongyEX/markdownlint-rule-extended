@@ -1,0 +1,26 @@
+{
+  "name": "markdownlint-rule-extended",
+  "version": "0.1.0",
+  "description": "A set of custom markdownlint rules that extend official rules to standardize Markdown formatting and enhance readability.",
+  "exports": {
+    ".": "./index.js"
+  },
+  "type": "module",
+  "files": [
+    "lib",
+    "docs",
+    "index.js",
+    "README.md",
+    "LICENSE",
+    "README.zh-CN.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "markdownlint",
+    "markdownlint-rule"
+  ],
+  "author": "FloongyEX <FloongyEX@outlook.com>",
+  "license": "MIT"
+}
