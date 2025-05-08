@@ -15,12 +15,21 @@
     "README.zh-CN.md"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint .",
+    "eslint:fix": "eslint . --fix"
   },
   "keywords": [
     "markdownlint",
     "markdownlint-rule"
   ],
   "author": "FloongyEX <FloongyEX@outlook.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.26.0",
+    "@floongyex/eslint-config-styling": "^0.1.0",
+    "@stylistic/eslint-plugin": "^4.2.0",
+    "eslint": "^9.26.0",
+    "globals": "^16.0.0"
+  }
 }
