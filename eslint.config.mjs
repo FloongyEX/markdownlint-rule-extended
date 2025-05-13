@@ -2,6 +2,7 @@ import js from "@eslint/js"
 import globals from "globals"
 import { defineConfig } from "eslint/config"
 import sharedConfigForStyling from "@floongyex/eslint-config-styling"
+import jest from "eslint-plugin-jest"
 
 export default defineConfig([
   {
@@ -10,5 +11,9 @@ export default defineConfig([
     extends: ["js/recommended"],
     languageOptions: { globals: globals.node },
   },
-  sharedConfigForStyling.stylistic
+  sharedConfigForStyling.stylistic,
+  {
+    files: ["test/*.test.{js,mjs,cjs}"],
+    extends: [jest.configs["flat/recommended"]]
+  }
 ])
