@@ -4,7 +4,17 @@
 customRules: []
 
 # Define glob expressions to ignore
-ignores: []
+ignores:
+  # Ignore all files in the "node_modules" directory
+  - "**/node_modules/**"
+  # Ignore all files in the "test" directory
+  - "**/test/**"
+  # Ignore all files in the ".github" directory
+  - "**/.github/**"
+  # Ignore all files in the ".vscode" directory
+  - "**/.vscode/**"
+  # Ignore all files in the ".idea" directory
+  - "**/.idea/**"
 
 # Markdownlint rules configuration
 config:
