@@ -11,7 +11,10 @@ export default defineConfig([
     extends: ["js/recommended"],
     languageOptions: { globals: globals.node },
   },
-  sharedConfigForStyling.stylistic,
+  {
+    files: ["**/*.{js,mjs,cjs}"],
+    extends: [sharedConfigForStyling.stylistic]
+  },
   {
     files: ["test/*.test.{js,mjs,cjs}"],
     extends: [jest.configs["flat/recommended"]]
