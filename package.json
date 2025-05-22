@@ -20,7 +20,8 @@
     "eslint:fix": "eslint . --fix",
     "mdlint": "markdownlint-cli2 --config .markdownlint-cli2.yaml \"**/*.md\"",
     "mdlint:fix": "markdownlint-cli2 --config .markdownlint-cli2.yaml --fix \"**/*.md\"",
-    "parseMarkdownFiles": "node scripts/parseMarkdownFiles.mjs"
+    "parseMarkdownFiles": "node scripts/parseMarkdownFiles.mjs",
+    "prepare": "husky"
   },
   "keywords": [
     "markdownlint",
@@ -29,13 +30,16 @@
   "author": "FloongyEX <FloongyEX@outlook.com>",
   "license": "MIT",
   "devDependencies": {
+    "@commitlint/cli": "^19.8.1",
     "@eslint/js": "^9.26.0",
     "@floongyex/eslint-config-styling": "^0.1.0",
     "@stylistic/eslint-plugin": "^4.2.0",
     "@types/jest": "^29.5.14",
+    "commitlint-config-gitmoji": "^2.3.1",
     "eslint": "^9.26.0",
     "eslint-plugin-jest": "^28.11.0",
     "globals": "^16.0.0",
+    "husky": "^9.1.7",
     "jest": "^29.7.0",
     "markdownlint-cli2": "^0.18.0",
     "markdownlint-rule-utils": "^0.5.0"
