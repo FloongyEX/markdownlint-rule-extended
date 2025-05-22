@@ -14,28 +14,39 @@ async function processMarkdownFiles(dir) {
       try {
         console.log(`Processing: ${fullPath}`)
 
-        // 读取Markdown内容
-        const content = await fs.readFile(fullPath, "utf8")
-
-        // 使用markdownlint-rule-utils解析
-        const tokens = parse(content)
-
-        // 生成输出路径（同目录下.json文件）
         const outputPath = path.join(
           path.dirname(fullPath),
           `${path.basename(fullPath, ".md")}.json`
         )
 
-        // 写入JSON文件
+        // Skip if the output file already exists
+        try {
+          await fs.access(outputPath)
+          console.log(`Skipping existing: ${outputPath}`)
+          continue
+        }
+        catch (err) {
+          if (err.code !== "ENOENT")
+            throw err
+        }
+
+        const content = await fs.readFile(fullPath, "utf8")
+
+        const tokens = parse(content)
+
         await fs.writeFile(
           outputPath,
-          JSON.stringify(tokens, (key, value) => {
-            // 移除循环引用的parent属性
-            if (key === "parent")
-              return "Circular"
+          JSON.stringify(
+            tokens,
+            (key, value) => {
+            // avoid circular references
+              if (key === "parent" && value)
+                return `${value.type} from ${value.startLine}:${value.startColumn} to ${value.endLine}:${value.endColumn}`
 
-            return value
-          }, 2),
+              return value
+            },
+            2
+          ),
           "utf8"
         )
 
@@ -46,7 +57,6 @@ async function processMarkdownFiles(dir) {
   }
 }
 
-// 从test目录开始处理
 processMarkdownFiles("test")
   .then(() => console.log("Processing completed"))
   .catch((err) => console.error("Error:", err.message))
