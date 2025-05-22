@@ -19,7 +19,8 @@
     "eslint": "eslint .",
     "eslint:fix": "eslint . --fix",
     "mdlint": "markdownlint-cli2 --config .markdownlint-cli2.yaml \"**/*.md\"",
-    "mdlint:fix": "markdownlint-cli2 --config .markdownlint-cli2.yaml --fix \"**/*.md\""
+    "mdlint:fix": "markdownlint-cli2 --config .markdownlint-cli2.yaml --fix \"**/*.md\"",
+    "parseMarkdownFiles": "node scripts/parseMarkdownFiles.mjs"
   },
   "keywords": [
     "markdownlint",
