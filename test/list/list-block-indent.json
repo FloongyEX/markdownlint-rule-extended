@@ -1,0 +1,1442 @@
+[
+  {
+    "type": "atxHeading",
+    "startLine": 1,
+    "startColumn": 1,
+    "endLine": 1,
+    "endColumn": 20,
+    "text": "# list-block-indent",
+    "children": [
+      {
+        "type": "atxHeadingSequence",
+        "startLine": 1,
+        "startColumn": 1,
+        "endLine": 1,
+        "endColumn": 2,
+        "text": "#",
+        "children": [],
+        "parent": "atxHeading from 1:1 to 1:20"
+      },
+      {
+        "type": "whitespace",
+        "startLine": 1,
+        "startColumn": 2,
+        "endLine": 1,
+        "endColumn": 3,
+        "text": " ",
+        "children": [],
+        "parent": "atxHeading from 1:1 to 1:20"
+      },
+      {
+        "type": "atxHeadingText",
+        "startLine": 1,
+        "startColumn": 3,
+        "endLine": 1,
+        "endColumn": 20,
+        "text": "list-block-indent",
+        "children": [
+          {
+            "type": "data",
+            "startLine": 1,
+            "startColumn": 3,
+            "endLine": 1,
+            "endColumn": 20,
+            "text": "list-block-indent",
+            "children": [],
+            "parent": "atxHeadingText from 1:3 to 1:20"
+          }
+        ],
+        "parent": "atxHeading from 1:1 to 1:20"
+      }
+    ],
+    "parent": null
+  },
+  {
+    "type": "lineEnding",
+    "startLine": 1,
+    "startColumn": 20,
+    "endLine": 2,
+    "endColumn": 1,
+    "text": "\n",
+    "children": [],
+    "parent": null
+  },
+  {
+    "type": "lineEndingBlank",
+    "startLine": 2,
+    "startColumn": 1,
+    "endLine": 3,
+    "endColumn": 1,
+    "text": "\n",
+    "children": [],
+    "parent": null
+  },
+  {
+    "type": "atxHeading",
+    "startLine": 3,
+    "startColumn": 1,
+    "endLine": 3,
+    "endColumn": 9,
+    "text": "## valid",
+    "children": [
+      {
+        "type": "atxHeadingSequence",
+        "startLine": 3,
+        "startColumn": 1,
+        "endLine": 3,
+        "endColumn": 3,
+        "text": "##",
+        "children": [],
+        "parent": "atxHeading from 3:1 to 3:9"
+      },
+      {
+        "type": "whitespace",
+        "startLine": 3,
+        "startColumn": 3,
+        "endLine": 3,
+        "endColumn": 4,
+        "text": " ",
+        "children": [],
+        "parent": "atxHeading from 3:1 to 3:9"
+      },
+      {
+        "type": "atxHeadingText",
+        "startLine": 3,
+        "startColumn": 4,
+        "endLine": 3,
+        "endColumn": 9,
+        "text": "valid",
+        "children": [
+          {
+            "type": "data",
+            "startLine": 3,
+            "startColumn": 4,
+            "endLine": 3,
+            "endColumn": 9,
+            "text": "valid",
+            "children": [],
+            "parent": "atxHeadingText from 3:4 to 3:9"
+          }
+        ],
+        "parent": "atxHeading from 3:1 to 3:9"
+      }
+    ],
+    "parent": null
+  },
+  {
+    "type": "lineEnding",
+    "startLine": 3,
+    "startColumn": 9,
+    "endLine": 4,
+    "endColumn": 1,
+    "text": "\n",
+    "children": [],
+    "parent": null
+  },
+  {
+    "type": "lineEndingBlank",
+    "startLine": 4,
+    "startColumn": 1,
+    "endLine": 5,
+    "endColumn": 1,
+    "text": "\n",
+    "children": [],
+    "parent": null
+  },
+  {
+    "type": "blockQuote",
+    "startLine": 5,
+    "startColumn": 1,
+    "endLine": 9,
+    "endColumn": 41,
+    "text": "> - unordered list, nesting Level 0\n>   - unordered list, nesting Level 1\n>   1. ordered list, nesting Level 1\n>      1. sub ordered list, nesting Level 2\n>      - unordered list, nesting Level 2",
+    "children": [
+      {
+        "type": "blockQuotePrefix",
+        "startLine": 5,
+        "startColumn": 1,
+        "endLine": 5,
+        "endColumn": 3,
+        "text": "> ",
+        "children": [
+          {
+            "type": "blockQuoteMarker",
+            "startLine": 5,
+            "startColumn": 1,
+            "endLine": 5,
+            "endColumn": 2,
+            "text": ">",
+            "children": [],
+            "parent": "blockQuotePrefix from 5:1 to 5:3"
+          },
+          {
+            "type": "blockQuotePrefixWhitespace",
+            "startLine": 5,
+            "startColumn": 2,
+            "endLine": 5,
+            "endColumn": 3,
+            "text": " ",
+            "children": [],
+            "parent": "blockQuotePrefix from 5:1 to 5:3"
+          }
+        ],
+        "parent": "blockQuote from 5:1 to 9:41"
+      },
+      {
+        "type": "listUnordered",
+        "startLine": 5,
+        "startColumn": 3,
+        "endLine": 9,
+        "endColumn": 41,
+        "text": "- unordered list, nesting Level 0\n>   - unordered list, nesting Level 1\n>   1. ordered list, nesting Level 1\n>      1. sub ordered list, nesting Level 2\n>      - unordered list, nesting Level 2",
+        "children": [
+          {
+            "type": "listItemPrefix",
+            "startLine": 5,
+            "startColumn": 3,
+            "endLine": 5,
+            "endColumn": 5,
+            "text": "- ",
+            "children": [
+              {
+                "type": "listItemMarker",
+                "startLine": 5,
+                "startColumn": 3,
+                "endLine": 5,
+                "endColumn": 4,
+                "text": "-",
+                "children": [],
+                "parent": "listItemPrefix from 5:3 to 5:5"
+              },
+              {
+                "type": "listItemPrefixWhitespace",
+                "startLine": 5,
+                "startColumn": 4,
+                "endLine": 5,
+                "endColumn": 5,
+                "text": " ",
+                "children": [],
+                "parent": "listItemPrefix from 5:3 to 5:5"
+              }
+            ],
+            "parent": "listUnordered from 5:3 to 9:41"
+          },
+          {
+            "type": "content",
+            "startLine": 5,
+            "startColumn": 5,
+            "endLine": 5,
+            "endColumn": 36,
+            "text": "unordered list, nesting Level 0",
+            "children": [
+              {
+                "type": "paragraph",
+                "startLine": 5,
+                "startColumn": 5,
+                "endLine": 5,
+                "endColumn": 36,
+                "text": "unordered list, nesting Level 0",
+                "children": [
+                  {
+                    "type": "data",
+                    "startLine": 5,
+                    "startColumn": 5,
+                    "endLine": 5,
+                    "endColumn": 36,
+                    "text": "unordered list, nesting Level 0",
+                    "children": [],
+                    "parent": "paragraph from 5:5 to 5:36"
+                  }
+                ],
+                "parent": "content from 5:5 to 5:36"
+              }
+            ],
+            "parent": "listUnordered from 5:3 to 9:41"
+          },
+          {
+            "type": "lineEnding",
+            "startLine": 5,
+            "startColumn": 36,
+            "endLine": 6,
+            "endColumn": 1,
+            "text": "\n",
+            "children": [],
+            "parent": "listUnordered from 5:3 to 9:41"
+          },
+          {
+            "type": "blockQuotePrefix",
+            "startLine": 6,
+            "startColumn": 1,
+            "endLine": 6,
+            "endColumn": 3,
+            "text": "> ",
+            "children": [
+              {
+                "type": "blockQuoteMarker",
+                "startLine": 6,
+                "startColumn": 1,
+                "endLine": 6,
+                "endColumn": 2,
+                "text": ">",
+                "children": [],
+                "parent": "blockQuotePrefix from 6:1 to 6:3"
+              },
+              {
+                "type": "blockQuotePrefixWhitespace",
+                "startLine": 6,
+                "startColumn": 2,
+                "endLine": 6,
+                "endColumn": 3,
+                "text": " ",
+                "children": [],
+                "parent": "blockQuotePrefix from 6:1 to 6:3"
+              }
+            ],
+            "parent": "listUnordered from 5:3 to 9:41"
+          },
+          {
+            "type": "listItemIndent",
+            "startLine": 6,
+            "startColumn": 3,
+            "endLine": 6,
+            "endColumn": 5,
+            "text": "  ",
+            "children": [],
+            "parent": "listUnordered from 5:3 to 9:41"
+          },
+          {
+            "type": "listUnordered",
+            "startLine": 6,
+            "startColumn": 5,
+            "endLine": 7,
+            "endColumn": 5,
+            "text": "- unordered list, nesting Level 1\n>   ",
+            "children": [
+              {
+                "type": "listItemPrefix",
+                "startLine": 6,
+                "startColumn": 5,
+                "endLine": 6,
+                "endColumn": 7,
+                "text": "- ",
+                "children": [
+                  {
+                    "type": "listItemMarker",
+                    "startLine": 6,
+                    "startColumn": 5,
+                    "endLine": 6,
+                    "endColumn": 6,
+                    "text": "-",
+                    "children": [],
+                    "parent": "listItemPrefix from 6:5 to 6:7"
+                  },
+                  {
+                    "type": "listItemPrefixWhitespace",
+                    "startLine": 6,
+                    "startColumn": 6,
+                    "endLine": 6,
+                    "endColumn": 7,
+                    "text": " ",
+                    "children": [],
+                    "parent": "listItemPrefix from 6:5 to 6:7"
+                  }
+                ],
+                "parent": "listUnordered from 6:5 to 7:5"
+              },
+              {
+                "type": "content",
+                "startLine": 6,
+                "startColumn": 7,
+                "endLine": 6,
+                "endColumn": 38,
+                "text": "unordered list, nesting Level 1",
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "startLine": 6,
+                    "startColumn": 7,
+                    "endLine": 6,
+                    "endColumn": 38,
+                    "text": "unordered list, nesting Level 1",
+                    "children": [
+                      {
+                        "type": "data",
+                        "startLine": 6,
+                        "startColumn": 7,
+                        "endLine": 6,
+                        "endColumn": 38,
+                        "text": "unordered list, nesting Level 1",
+                        "children": [],
+                        "parent": "paragraph from 6:7 to 6:38"
+                      }
+                    ],
+                    "parent": "content from 6:7 to 6:38"
+                  }
+                ],
+                "parent": "listUnordered from 6:5 to 7:5"
+              },
+              {
+                "type": "lineEnding",
+                "startLine": 6,
+                "startColumn": 38,
+                "endLine": 7,
+                "endColumn": 1,
+                "text": "\n",
+                "children": [],
+                "parent": "listUnordered from 6:5 to 7:5"
+              },
+              {
+                "type": "blockQuotePrefix",
+                "startLine": 7,
+                "startColumn": 1,
+                "endLine": 7,
+                "endColumn": 3,
+                "text": "> ",
+                "children": [
+                  {
+                    "type": "blockQuoteMarker",
+                    "startLine": 7,
+                    "startColumn": 1,
+                    "endLine": 7,
+                    "endColumn": 2,
+                    "text": ">",
+                    "children": [],
+                    "parent": "blockQuotePrefix from 7:1 to 7:3"
+                  },
+                  {
+                    "type": "blockQuotePrefixWhitespace",
+                    "startLine": 7,
+                    "startColumn": 2,
+                    "endLine": 7,
+                    "endColumn": 3,
+                    "text": " ",
+                    "children": [],
+                    "parent": "blockQuotePrefix from 7:1 to 7:3"
+                  }
+                ],
+                "parent": "listUnordered from 6:5 to 7:5"
+              },
+              {
+                "type": "listItemIndent",
+                "startLine": 7,
+                "startColumn": 3,
+                "endLine": 7,
+                "endColumn": 5,
+                "text": "  ",
+                "children": [],
+                "parent": "listUnordered from 6:5 to 7:5"
+              }
+            ],
+            "parent": "listUnordered from 5:3 to 9:41"
+          },
+          {
+            "type": "listOrdered",
+            "startLine": 7,
+            "startColumn": 5,
+            "endLine": 9,
+            "endColumn": 41,
+            "text": "1. ordered list, nesting Level 1\n>      1. sub ordered list, nesting Level 2\n>      - unordered list, nesting Level 2",
+            "children": [
+              {
+                "type": "listItemPrefix",
+                "startLine": 7,
+                "startColumn": 5,
+                "endLine": 7,
+                "endColumn": 8,
+                "text": "1. ",
+                "children": [
+                  {
+                    "type": "listItemValue",
+                    "startLine": 7,
+                    "startColumn": 5,
+                    "endLine": 7,
+                    "endColumn": 6,
+                    "text": "1",
+                    "children": [],
+                    "parent": "listItemPrefix from 7:5 to 7:8"
+                  },
+                  {
+                    "type": "listItemMarker",
+                    "startLine": 7,
+                    "startColumn": 6,
+                    "endLine": 7,
+                    "endColumn": 7,
+                    "text": ".",
+                    "children": [],
+                    "parent": "listItemPrefix from 7:5 to 7:8"
+                  },
+                  {
+                    "type": "listItemPrefixWhitespace",
+                    "startLine": 7,
+                    "startColumn": 7,
+                    "endLine": 7,
+                    "endColumn": 8,
+                    "text": " ",
+                    "children": [],
+                    "parent": "listItemPrefix from 7:5 to 7:8"
+                  }
+                ],
+                "parent": "listOrdered from 7:5 to 9:41"
+              },
+              {
+                "type": "content",
+                "startLine": 7,
+                "startColumn": 8,
+                "endLine": 7,
+                "endColumn": 37,
+                "text": "ordered list, nesting Level 1",
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "startLine": 7,
+                    "startColumn": 8,
+                    "endLine": 7,
+                    "endColumn": 37,
+                    "text": "ordered list, nesting Level 1",
+                    "children": [
+                      {
+                        "type": "data",
+                        "startLine": 7,
+                        "startColumn": 8,
+                        "endLine": 7,
+                        "endColumn": 37,
+                        "text": "ordered list, nesting Level 1",
+                        "children": [],
+                        "parent": "paragraph from 7:8 to 7:37"
+                      }
+                    ],
+                    "parent": "content from 7:8 to 7:37"
+                  }
+                ],
+                "parent": "listOrdered from 7:5 to 9:41"
+              },
+              {
+                "type": "lineEnding",
+                "startLine": 7,
+                "startColumn": 37,
+                "endLine": 8,
+                "endColumn": 1,
+                "text": "\n",
+                "children": [],
+                "parent": "listOrdered from 7:5 to 9:41"
+              },
+              {
+                "type": "blockQuotePrefix",
+                "startLine": 8,
+                "startColumn": 1,
+                "endLine": 8,
+                "endColumn": 3,
+                "text": "> ",
+                "children": [
+                  {
+                    "type": "blockQuoteMarker",
+                    "startLine": 8,
+                    "startColumn": 1,
+                    "endLine": 8,
+                    "endColumn": 2,
+                    "text": ">",
+                    "children": [],
+                    "parent": "blockQuotePrefix from 8:1 to 8:3"
+                  },
+                  {
+                    "type": "blockQuotePrefixWhitespace",
+                    "startLine": 8,
+                    "startColumn": 2,
+                    "endLine": 8,
+                    "endColumn": 3,
+                    "text": " ",
+                    "children": [],
+                    "parent": "blockQuotePrefix from 8:1 to 8:3"
+                  }
+                ],
+                "parent": "listOrdered from 7:5 to 9:41"
+              },
+              {
+                "type": "listItemIndent",
+                "startLine": 8,
+                "startColumn": 3,
+                "endLine": 8,
+                "endColumn": 5,
+                "text": "  ",
+                "children": [],
+                "parent": "listOrdered from 7:5 to 9:41"
+              },
+              {
+                "type": "listItemIndent",
+                "startLine": 8,
+                "startColumn": 5,
+                "endLine": 8,
+                "endColumn": 8,
+                "text": "   ",
+                "children": [],
+                "parent": "listOrdered from 7:5 to 9:41"
+              },
+              {
+                "type": "listOrdered",
+                "startLine": 8,
+                "startColumn": 8,
+                "endLine": 9,
+                "endColumn": 8,
+                "text": "1. sub ordered list, nesting Level 2\n>      ",
+                "children": [
+                  {
+                    "type": "listItemPrefix",
+                    "startLine": 8,
+                    "startColumn": 8,
+                    "endLine": 8,
+                    "endColumn": 11,
+                    "text": "1. ",
+                    "children": [
+                      {
+                        "type": "listItemValue",
+                        "startLine": 8,
+                        "startColumn": 8,
+                        "endLine": 8,
+                        "endColumn": 9,
+                        "text": "1",
+                        "children": [],
+                        "parent": "listItemPrefix from 8:8 to 8:11"
+                      },
+                      {
+                        "type": "listItemMarker",
+                        "startLine": 8,
+                        "startColumn": 9,
+                        "endLine": 8,
+                        "endColumn": 10,
+                        "text": ".",
+                        "children": [],
+                        "parent": "listItemPrefix from 8:8 to 8:11"
+                      },
+                      {
+                        "type": "listItemPrefixWhitespace",
+                        "startLine": 8,
+                        "startColumn": 10,
+                        "endLine": 8,
+                        "endColumn": 11,
+                        "text": " ",
+                        "children": [],
+                        "parent": "listItemPrefix from 8:8 to 8:11"
+                      }
+                    ],
+                    "parent": "listOrdered from 8:8 to 9:8"
+                  },
+                  {
+                    "type": "content",
+                    "startLine": 8,
+                    "startColumn": 11,
+                    "endLine": 8,
+                    "endColumn": 44,
+                    "text": "sub ordered list, nesting Level 2",
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "startLine": 8,
+                        "startColumn": 11,
+                        "endLine": 8,
+                        "endColumn": 44,
+                        "text": "sub ordered list, nesting Level 2",
+                        "children": [
+                          {
+                            "type": "data",
+                            "startLine": 8,
+                            "startColumn": 11,
+                            "endLine": 8,
+                            "endColumn": 44,
+                            "text": "sub ordered list, nesting Level 2",
+                            "children": [],
+                            "parent": "paragraph from 8:11 to 8:44"
+                          }
+                        ],
+                        "parent": "content from 8:11 to 8:44"
+                      }
+                    ],
+                    "parent": "listOrdered from 8:8 to 9:8"
+                  },
+                  {
+                    "type": "lineEnding",
+                    "startLine": 8,
+                    "startColumn": 44,
+                    "endLine": 9,
+                    "endColumn": 1,
+                    "text": "\n",
+                    "children": [],
+                    "parent": "listOrdered from 8:8 to 9:8"
+                  },
+                  {
+                    "type": "blockQuotePrefix",
+                    "startLine": 9,
+                    "startColumn": 1,
+                    "endLine": 9,
+                    "endColumn": 3,
+                    "text": "> ",
+                    "children": [
+                      {
+                        "type": "blockQuoteMarker",
+                        "startLine": 9,
+                        "startColumn": 1,
+                        "endLine": 9,
+                        "endColumn": 2,
+                        "text": ">",
+                        "children": [],
+                        "parent": "blockQuotePrefix from 9:1 to 9:3"
+                      },
+                      {
+                        "type": "blockQuotePrefixWhitespace",
+                        "startLine": 9,
+                        "startColumn": 2,
+                        "endLine": 9,
+                        "endColumn": 3,
+                        "text": " ",
+                        "children": [],
+                        "parent": "blockQuotePrefix from 9:1 to 9:3"
+                      }
+                    ],
+                    "parent": "listOrdered from 8:8 to 9:8"
+                  },
+                  {
+                    "type": "listItemIndent",
+                    "startLine": 9,
+                    "startColumn": 3,
+                    "endLine": 9,
+                    "endColumn": 5,
+                    "text": "  ",
+                    "children": [],
+                    "parent": "listOrdered from 8:8 to 9:8"
+                  },
+                  {
+                    "type": "listItemIndent",
+                    "startLine": 9,
+                    "startColumn": 5,
+                    "endLine": 9,
+                    "endColumn": 8,
+                    "text": "   ",
+                    "children": [],
+                    "parent": "listOrdered from 8:8 to 9:8"
+                  }
+                ],
+                "parent": "listOrdered from 7:5 to 9:41"
+              },
+              {
+                "type": "listUnordered",
+                "startLine": 9,
+                "startColumn": 8,
+                "endLine": 9,
+                "endColumn": 41,
+                "text": "- unordered list, nesting Level 2",
+                "children": [
+                  {
+                    "type": "listItemPrefix",
+                    "startLine": 9,
+                    "startColumn": 8,
+                    "endLine": 9,
+                    "endColumn": 10,
+                    "text": "- ",
+                    "children": [
+                      {
+                        "type": "listItemMarker",
+                        "startLine": 9,
+                        "startColumn": 8,
+                        "endLine": 9,
+                        "endColumn": 9,
+                        "text": "-",
+                        "children": [],
+                        "parent": "listItemPrefix from 9:8 to 9:10"
+                      },
+                      {
+                        "type": "listItemPrefixWhitespace",
+                        "startLine": 9,
+                        "startColumn": 9,
+                        "endLine": 9,
+                        "endColumn": 10,
+                        "text": " ",
+                        "children": [],
+                        "parent": "listItemPrefix from 9:8 to 9:10"
+                      }
+                    ],
+                    "parent": "listUnordered from 9:8 to 9:41"
+                  },
+                  {
+                    "type": "content",
+                    "startLine": 9,
+                    "startColumn": 10,
+                    "endLine": 9,
+                    "endColumn": 41,
+                    "text": "unordered list, nesting Level 2",
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "startLine": 9,
+                        "startColumn": 10,
+                        "endLine": 9,
+                        "endColumn": 41,
+                        "text": "unordered list, nesting Level 2",
+                        "children": [
+                          {
+                            "type": "data",
+                            "startLine": 9,
+                            "startColumn": 10,
+                            "endLine": 9,
+                            "endColumn": 41,
+                            "text": "unordered list, nesting Level 2",
+                            "children": [],
+                            "parent": "paragraph from 9:10 to 9:41"
+                          }
+                        ],
+                        "parent": "content from 9:10 to 9:41"
+                      }
+                    ],
+                    "parent": "listUnordered from 9:8 to 9:41"
+                  }
+                ],
+                "parent": "listOrdered from 7:5 to 9:41"
+              }
+            ],
+            "parent": "listUnordered from 5:3 to 9:41"
+          }
+        ],
+        "parent": "blockQuote from 5:1 to 9:41"
+      }
+    ],
+    "parent": null
+  },
+  {
+    "type": "lineEnding",
+    "startLine": 9,
+    "startColumn": 41,
+    "endLine": 10,
+    "endColumn": 1,
+    "text": "\n",
+    "children": [],
+    "parent": null
+  },
+  {
+    "type": "lineEndingBlank",
+    "startLine": 10,
+    "startColumn": 1,
+    "endLine": 11,
+    "endColumn": 1,
+    "text": "\n",
+    "children": [],
+    "parent": null
+  },
+  {
+    "type": "atxHeading",
+    "startLine": 11,
+    "startColumn": 1,
+    "endLine": 11,
+    "endColumn": 11,
+    "text": "## invalid",
+    "children": [
+      {
+        "type": "atxHeadingSequence",
+        "startLine": 11,
+        "startColumn": 1,
+        "endLine": 11,
+        "endColumn": 3,
+        "text": "##",
+        "children": [],
+        "parent": "atxHeading from 11:1 to 11:11"
+      },
+      {
+        "type": "whitespace",
+        "startLine": 11,
+        "startColumn": 3,
+        "endLine": 11,
+        "endColumn": 4,
+        "text": " ",
+        "children": [],
+        "parent": "atxHeading from 11:1 to 11:11"
+      },
+      {
+        "type": "atxHeadingText",
+        "startLine": 11,
+        "startColumn": 4,
+        "endLine": 11,
+        "endColumn": 11,
+        "text": "invalid",
+        "children": [
+          {
+            "type": "data",
+            "startLine": 11,
+            "startColumn": 4,
+            "endLine": 11,
+            "endColumn": 11,
+            "text": "invalid",
+            "children": [],
+            "parent": "atxHeadingText from 11:4 to 11:11"
+          }
+        ],
+        "parent": "atxHeading from 11:1 to 11:11"
+      }
+    ],
+    "parent": null
+  },
+  {
+    "type": "lineEnding",
+    "startLine": 11,
+    "startColumn": 11,
+    "endLine": 12,
+    "endColumn": 1,
+    "text": "\n",
+    "children": [],
+    "parent": null
+  },
+  {
+    "type": "lineEndingBlank",
+    "startLine": 12,
+    "startColumn": 1,
+    "endLine": 13,
+    "endColumn": 1,
+    "text": "\n",
+    "children": [],
+    "parent": null
+  },
+  {
+    "type": "blockQuote",
+    "startLine": 13,
+    "startColumn": 1,
+    "endLine": 17,
+    "endColumn": 42,
+    "text": "> - unordered list, nesting Level 0\n>     - unordered list, nesting Level 1\n>     1. ordered list, nesting Level 1\n>       1. sub ordered list, nesting Level 2\n>       - unordered list, nesting Level 2",
+    "children": [
+      {
+        "type": "blockQuotePrefix",
+        "startLine": 13,
+        "startColumn": 1,
+        "endLine": 13,
+        "endColumn": 3,
+        "text": "> ",
+        "children": [
+          {
+            "type": "blockQuoteMarker",
+            "startLine": 13,
+            "startColumn": 1,
+            "endLine": 13,
+            "endColumn": 2,
+            "text": ">",
+            "children": [],
+            "parent": "blockQuotePrefix from 13:1 to 13:3"
+          },
+          {
+            "type": "blockQuotePrefixWhitespace",
+            "startLine": 13,
+            "startColumn": 2,
+            "endLine": 13,
+            "endColumn": 3,
+            "text": " ",
+            "children": [],
+            "parent": "blockQuotePrefix from 13:1 to 13:3"
+          }
+        ],
+        "parent": "blockQuote from 13:1 to 17:42"
+      },
+      {
+        "type": "listUnordered",
+        "startLine": 13,
+        "startColumn": 3,
+        "endLine": 17,
+        "endColumn": 42,
+        "text": "- unordered list, nesting Level 0\n>     - unordered list, nesting Level 1\n>     1. ordered list, nesting Level 1\n>       1. sub ordered list, nesting Level 2\n>       - unordered list, nesting Level 2",
+        "children": [
+          {
+            "type": "listItemPrefix",
+            "startLine": 13,
+            "startColumn": 3,
+            "endLine": 13,
+            "endColumn": 5,
+            "text": "- ",
+            "children": [
+              {
+                "type": "listItemMarker",
+                "startLine": 13,
+                "startColumn": 3,
+                "endLine": 13,
+                "endColumn": 4,
+                "text": "-",
+                "children": [],
+                "parent": "listItemPrefix from 13:3 to 13:5"
+              },
+              {
+                "type": "listItemPrefixWhitespace",
+                "startLine": 13,
+                "startColumn": 4,
+                "endLine": 13,
+                "endColumn": 5,
+                "text": " ",
+                "children": [],
+                "parent": "listItemPrefix from 13:3 to 13:5"
+              }
+            ],
+            "parent": "listUnordered from 13:3 to 17:42"
+          },
+          {
+            "type": "content",
+            "startLine": 13,
+            "startColumn": 5,
+            "endLine": 13,
+            "endColumn": 36,
+            "text": "unordered list, nesting Level 0",
+            "children": [
+              {
+                "type": "paragraph",
+                "startLine": 13,
+                "startColumn": 5,
+                "endLine": 13,
+                "endColumn": 36,
+                "text": "unordered list, nesting Level 0",
+                "children": [
+                  {
+                    "type": "data",
+                    "startLine": 13,
+                    "startColumn": 5,
+                    "endLine": 13,
+                    "endColumn": 36,
+                    "text": "unordered list, nesting Level 0",
+                    "children": [],
+                    "parent": "paragraph from 13:5 to 13:36"
+                  }
+                ],
+                "parent": "content from 13:5 to 13:36"
+              }
+            ],
+            "parent": "listUnordered from 13:3 to 17:42"
+          },
+          {
+            "type": "lineEnding",
+            "startLine": 13,
+            "startColumn": 36,
+            "endLine": 14,
+            "endColumn": 1,
+            "text": "\n",
+            "children": [],
+            "parent": "listUnordered from 13:3 to 17:42"
+          },
+          {
+            "type": "blockQuotePrefix",
+            "startLine": 14,
+            "startColumn": 1,
+            "endLine": 14,
+            "endColumn": 3,
+            "text": "> ",
+            "children": [
+              {
+                "type": "blockQuoteMarker",
+                "startLine": 14,
+                "startColumn": 1,
+                "endLine": 14,
+                "endColumn": 2,
+                "text": ">",
+                "children": [],
+                "parent": "blockQuotePrefix from 14:1 to 14:3"
+              },
+              {
+                "type": "blockQuotePrefixWhitespace",
+                "startLine": 14,
+                "startColumn": 2,
+                "endLine": 14,
+                "endColumn": 3,
+                "text": " ",
+                "children": [],
+                "parent": "blockQuotePrefix from 14:1 to 14:3"
+              }
+            ],
+            "parent": "listUnordered from 13:3 to 17:42"
+          },
+          {
+            "type": "listItemIndent",
+            "startLine": 14,
+            "startColumn": 3,
+            "endLine": 14,
+            "endColumn": 5,
+            "text": "  ",
+            "children": [],
+            "parent": "listUnordered from 13:3 to 17:42"
+          },
+          {
+            "type": "linePrefix",
+            "startLine": 14,
+            "startColumn": 5,
+            "endLine": 14,
+            "endColumn": 7,
+            "text": "  ",
+            "children": [],
+            "parent": "listUnordered from 13:3 to 17:42"
+          },
+          {
+            "type": "listUnordered",
+            "startLine": 14,
+            "startColumn": 7,
+            "endLine": 15,
+            "endColumn": 5,
+            "text": "- unordered list, nesting Level 1\n>   ",
+            "children": [
+              {
+                "type": "listItemPrefix",
+                "startLine": 14,
+                "startColumn": 7,
+                "endLine": 14,
+                "endColumn": 9,
+                "text": "- ",
+                "children": [
+                  {
+                    "type": "listItemMarker",
+                    "startLine": 14,
+                    "startColumn": 7,
+                    "endLine": 14,
+                    "endColumn": 8,
+                    "text": "-",
+                    "children": [],
+                    "parent": "listItemPrefix from 14:7 to 14:9"
+                  },
+                  {
+                    "type": "listItemPrefixWhitespace",
+                    "startLine": 14,
+                    "startColumn": 8,
+                    "endLine": 14,
+                    "endColumn": 9,
+                    "text": " ",
+                    "children": [],
+                    "parent": "listItemPrefix from 14:7 to 14:9"
+                  }
+                ],
+                "parent": "listUnordered from 14:7 to 15:5"
+              },
+              {
+                "type": "content",
+                "startLine": 14,
+                "startColumn": 9,
+                "endLine": 14,
+                "endColumn": 40,
+                "text": "unordered list, nesting Level 1",
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "startLine": 14,
+                    "startColumn": 9,
+                    "endLine": 14,
+                    "endColumn": 40,
+                    "text": "unordered list, nesting Level 1",
+                    "children": [
+                      {
+                        "type": "data",
+                        "startLine": 14,
+                        "startColumn": 9,
+                        "endLine": 14,
+                        "endColumn": 40,
+                        "text": "unordered list, nesting Level 1",
+                        "children": [],
+                        "parent": "paragraph from 14:9 to 14:40"
+                      }
+                    ],
+                    "parent": "content from 14:9 to 14:40"
+                  }
+                ],
+                "parent": "listUnordered from 14:7 to 15:5"
+              },
+              {
+                "type": "lineEnding",
+                "startLine": 14,
+                "startColumn": 40,
+                "endLine": 15,
+                "endColumn": 1,
+                "text": "\n",
+                "children": [],
+                "parent": "listUnordered from 14:7 to 15:5"
+              },
+              {
+                "type": "blockQuotePrefix",
+                "startLine": 15,
+                "startColumn": 1,
+                "endLine": 15,
+                "endColumn": 3,
+                "text": "> ",
+                "children": [
+                  {
+                    "type": "blockQuoteMarker",
+                    "startLine": 15,
+                    "startColumn": 1,
+                    "endLine": 15,
+                    "endColumn": 2,
+                    "text": ">",
+                    "children": [],
+                    "parent": "blockQuotePrefix from 15:1 to 15:3"
+                  },
+                  {
+                    "type": "blockQuotePrefixWhitespace",
+                    "startLine": 15,
+                    "startColumn": 2,
+                    "endLine": 15,
+                    "endColumn": 3,
+                    "text": " ",
+                    "children": [],
+                    "parent": "blockQuotePrefix from 15:1 to 15:3"
+                  }
+                ],
+                "parent": "listUnordered from 14:7 to 15:5"
+              },
+              {
+                "type": "listItemIndent",
+                "startLine": 15,
+                "startColumn": 3,
+                "endLine": 15,
+                "endColumn": 5,
+                "text": "  ",
+                "children": [],
+                "parent": "listUnordered from 14:7 to 15:5"
+              }
+            ],
+            "parent": "listUnordered from 13:3 to 17:42"
+          },
+          {
+            "type": "linePrefix",
+            "startLine": 15,
+            "startColumn": 5,
+            "endLine": 15,
+            "endColumn": 7,
+            "text": "  ",
+            "children": [],
+            "parent": "listUnordered from 13:3 to 17:42"
+          },
+          {
+            "type": "listOrdered",
+            "startLine": 15,
+            "startColumn": 7,
+            "endLine": 17,
+            "endColumn": 42,
+            "text": "1. ordered list, nesting Level 1\n>       1. sub ordered list, nesting Level 2\n>       - unordered list, nesting Level 2",
+            "children": [
+              {
+                "type": "listItemPrefix",
+                "startLine": 15,
+                "startColumn": 7,
+                "endLine": 15,
+                "endColumn": 10,
+                "text": "1. ",
+                "children": [
+                  {
+                    "type": "listItemValue",
+                    "startLine": 15,
+                    "startColumn": 7,
+                    "endLine": 15,
+                    "endColumn": 8,
+                    "text": "1",
+                    "children": [],
+                    "parent": "listItemPrefix from 15:7 to 15:10"
+                  },
+                  {
+                    "type": "listItemMarker",
+                    "startLine": 15,
+                    "startColumn": 8,
+                    "endLine": 15,
+                    "endColumn": 9,
+                    "text": ".",
+                    "children": [],
+                    "parent": "listItemPrefix from 15:7 to 15:10"
+                  },
+                  {
+                    "type": "listItemPrefixWhitespace",
+                    "startLine": 15,
+                    "startColumn": 9,
+                    "endLine": 15,
+                    "endColumn": 10,
+                    "text": " ",
+                    "children": [],
+                    "parent": "listItemPrefix from 15:7 to 15:10"
+                  }
+                ],
+                "parent": "listOrdered from 15:7 to 17:42"
+              },
+              {
+                "type": "content",
+                "startLine": 15,
+                "startColumn": 10,
+                "endLine": 17,
+                "endColumn": 42,
+                "text": "ordered list, nesting Level 1\n>       1. sub ordered list, nesting Level 2\n>       - unordered list, nesting Level 2",
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "startLine": 15,
+                    "startColumn": 10,
+                    "endLine": 17,
+                    "endColumn": 42,
+                    "text": "ordered list, nesting Level 1\n>       1. sub ordered list, nesting Level 2\n>       - unordered list, nesting Level 2",
+                    "children": [
+                      {
+                        "type": "data",
+                        "startLine": 15,
+                        "startColumn": 10,
+                        "endLine": 15,
+                        "endColumn": 39,
+                        "text": "ordered list, nesting Level 1",
+                        "children": [],
+                        "parent": "paragraph from 15:10 to 17:42"
+                      },
+                      {
+                        "type": "lineEnding",
+                        "startLine": 15,
+                        "startColumn": 39,
+                        "endLine": 16,
+                        "endColumn": 1,
+                        "text": "\n",
+                        "children": [],
+                        "parent": "paragraph from 15:10 to 17:42"
+                      },
+                      {
+                        "type": "blockQuotePrefix",
+                        "startLine": 16,
+                        "startColumn": 1,
+                        "endLine": 16,
+                        "endColumn": 3,
+                        "text": "> ",
+                        "children": [
+                          {
+                            "type": "blockQuoteMarker",
+                            "startLine": 16,
+                            "startColumn": 1,
+                            "endLine": 16,
+                            "endColumn": 2,
+                            "text": ">",
+                            "children": [],
+                            "parent": "blockQuotePrefix from 16:1 to 16:3"
+                          },
+                          {
+                            "type": "blockQuotePrefixWhitespace",
+                            "startLine": 16,
+                            "startColumn": 2,
+                            "endLine": 16,
+                            "endColumn": 3,
+                            "text": " ",
+                            "children": [],
+                            "parent": "blockQuotePrefix from 16:1 to 16:3"
+                          }
+                        ],
+                        "parent": "paragraph from 15:10 to 17:42"
+                      },
+                      {
+                        "type": "listItemIndent",
+                        "startLine": 16,
+                        "startColumn": 3,
+                        "endLine": 16,
+                        "endColumn": 5,
+                        "text": "  ",
+                        "children": [],
+                        "parent": "paragraph from 15:10 to 17:42"
+                      },
+                      {
+                        "type": "linePrefix",
+                        "startLine": 16,
+                        "startColumn": 5,
+                        "endLine": 16,
+                        "endColumn": 9,
+                        "text": "    ",
+                        "children": [],
+                        "parent": "paragraph from 15:10 to 17:42"
+                      },
+                      {
+                        "type": "data",
+                        "startLine": 16,
+                        "startColumn": 9,
+                        "endLine": 16,
+                        "endColumn": 45,
+                        "text": "1. sub ordered list, nesting Level 2",
+                        "children": [],
+                        "parent": "paragraph from 15:10 to 17:42"
+                      },
+                      {
+                        "type": "lineEnding",
+                        "startLine": 16,
+                        "startColumn": 45,
+                        "endLine": 17,
+                        "endColumn": 1,
+                        "text": "\n",
+                        "children": [],
+                        "parent": "paragraph from 15:10 to 17:42"
+                      },
+                      {
+                        "type": "blockQuotePrefix",
+                        "startLine": 17,
+                        "startColumn": 1,
+                        "endLine": 17,
+                        "endColumn": 3,
+                        "text": "> ",
+                        "children": [
+                          {
+                            "type": "blockQuoteMarker",
+                            "startLine": 17,
+                            "startColumn": 1,
+                            "endLine": 17,
+                            "endColumn": 2,
+                            "text": ">",
+                            "children": [],
+                            "parent": "blockQuotePrefix from 17:1 to 17:3"
+                          },
+                          {
+                            "type": "blockQuotePrefixWhitespace",
+                            "startLine": 17,
+                            "startColumn": 2,
+                            "endLine": 17,
+                            "endColumn": 3,
+                            "text": " ",
+                            "children": [],
+                            "parent": "blockQuotePrefix from 17:1 to 17:3"
+                          }
+                        ],
+                        "parent": "paragraph from 15:10 to 17:42"
+                      },
+                      {
+                        "type": "listItemIndent",
+                        "startLine": 17,
+                        "startColumn": 3,
+                        "endLine": 17,
+                        "endColumn": 5,
+                        "text": "  ",
+                        "children": [],
+                        "parent": "paragraph from 15:10 to 17:42"
+                      },
+                      {
+                        "type": "linePrefix",
+                        "startLine": 17,
+                        "startColumn": 5,
+                        "endLine": 17,
+                        "endColumn": 9,
+                        "text": "    ",
+                        "children": [],
+                        "parent": "paragraph from 15:10 to 17:42"
+                      },
+                      {
+                        "type": "data",
+                        "startLine": 17,
+                        "startColumn": 9,
+                        "endLine": 17,
+                        "endColumn": 42,
+                        "text": "- unordered list, nesting Level 2",
+                        "children": [],
+                        "parent": "paragraph from 15:10 to 17:42"
+                      }
+                    ],
+                    "parent": "content from 15:10 to 17:42"
+                  }
+                ],
+                "parent": "listOrdered from 15:7 to 17:42"
+              }
+            ],
+            "parent": "listUnordered from 13:3 to 17:42"
+          }
+        ],
+        "parent": "blockQuote from 13:1 to 17:42"
+      }
+    ],
+    "parent": null
+  },
+  {
+    "type": "lineEnding",
+    "startLine": 17,
+    "startColumn": 42,
+    "endLine": 18,
+    "endColumn": 1,
+    "text": "\n",
+    "children": [],
+    "parent": null
+  }
+]

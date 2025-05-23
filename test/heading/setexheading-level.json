@@ -1,0 +1,158 @@
+[
+  {
+    "type": "setextHeading",
+    "startLine": 1,
+    "startColumn": 1,
+    "endLine": 2,
+    "endColumn": 16,
+    "text": "Setext style H1\n===============",
+    "children": [
+      {
+        "type": "setextHeadingText",
+        "startLine": 1,
+        "startColumn": 1,
+        "endLine": 1,
+        "endColumn": 16,
+        "text": "Setext style H1",
+        "children": [
+          {
+            "type": "data",
+            "startLine": 1,
+            "startColumn": 1,
+            "endLine": 1,
+            "endColumn": 16,
+            "text": "Setext style H1",
+            "children": [],
+            "parent": "setextHeadingText from 1:1 to 1:16"
+          }
+        ],
+        "parent": "setextHeading from 1:1 to 2:16"
+      },
+      {
+        "type": "lineEnding",
+        "startLine": 1,
+        "startColumn": 16,
+        "endLine": 2,
+        "endColumn": 1,
+        "text": "\n",
+        "children": [],
+        "parent": "setextHeading from 1:1 to 2:16"
+      },
+      {
+        "type": "setextHeadingLine",
+        "startLine": 2,
+        "startColumn": 1,
+        "endLine": 2,
+        "endColumn": 16,
+        "text": "===============",
+        "children": [
+          {
+            "type": "setextHeadingLineSequence",
+            "startLine": 2,
+            "startColumn": 1,
+            "endLine": 2,
+            "endColumn": 16,
+            "text": "===============",
+            "children": [],
+            "parent": "setextHeadingLine from 2:1 to 2:16"
+          }
+        ],
+        "parent": "setextHeading from 1:1 to 2:16"
+      }
+    ],
+    "parent": null
+  },
+  {
+    "type": "lineEnding",
+    "startLine": 2,
+    "startColumn": 16,
+    "endLine": 3,
+    "endColumn": 1,
+    "text": "\n",
+    "children": [],
+    "parent": null
+  },
+  {
+    "type": "lineEndingBlank",
+    "startLine": 3,
+    "startColumn": 1,
+    "endLine": 4,
+    "endColumn": 1,
+    "text": "\n",
+    "children": [],
+    "parent": null
+  },
+  {
+    "type": "setextHeading",
+    "startLine": 4,
+    "startColumn": 1,
+    "endLine": 5,
+    "endColumn": 16,
+    "text": "Setext style H2\n---------------",
+    "children": [
+      {
+        "type": "setextHeadingText",
+        "startLine": 4,
+        "startColumn": 1,
+        "endLine": 4,
+        "endColumn": 16,
+        "text": "Setext style H2",
+        "children": [
+          {
+            "type": "data",
+            "startLine": 4,
+            "startColumn": 1,
+            "endLine": 4,
+            "endColumn": 16,
+            "text": "Setext style H2",
+            "children": [],
+            "parent": "setextHeadingText from 4:1 to 4:16"
+          }
+        ],
+        "parent": "setextHeading from 4:1 to 5:16"
+      },
+      {
+        "type": "lineEnding",
+        "startLine": 4,
+        "startColumn": 16,
+        "endLine": 5,
+        "endColumn": 1,
+        "text": "\n",
+        "children": [],
+        "parent": "setextHeading from 4:1 to 5:16"
+      },
+      {
+        "type": "setextHeadingLine",
+        "startLine": 5,
+        "startColumn": 1,
+        "endLine": 5,
+        "endColumn": 16,
+        "text": "---------------",
+        "children": [
+          {
+            "type": "setextHeadingLineSequence",
+            "startLine": 5,
+            "startColumn": 1,
+            "endLine": 5,
+            "endColumn": 16,
+            "text": "---------------",
+            "children": [],
+            "parent": "setextHeadingLine from 5:1 to 5:16"
+          }
+        ],
+        "parent": "setextHeading from 4:1 to 5:16"
+      }
+    ],
+    "parent": null
+  },
+  {
+    "type": "lineEnding",
+    "startLine": 5,
+    "startColumn": 16,
+    "endLine": 6,
+    "endColumn": 1,
+    "text": "\n",
+    "children": [],
+    "parent": null
+  }
+]

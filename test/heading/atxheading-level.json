@@ -1,0 +1,424 @@
+[
+  {
+    "type": "atxHeading",
+    "startLine": 1,
+    "startColumn": 1,
+    "endLine": 1,
+    "endColumn": 15,
+    "text": "# ATX style H1",
+    "children": [
+      {
+        "type": "atxHeadingSequence",
+        "startLine": 1,
+        "startColumn": 1,
+        "endLine": 1,
+        "endColumn": 2,
+        "text": "#",
+        "children": [],
+        "parent": "atxHeading from 1:1 to 1:15"
+      },
+      {
+        "type": "whitespace",
+        "startLine": 1,
+        "startColumn": 2,
+        "endLine": 1,
+        "endColumn": 3,
+        "text": " ",
+        "children": [],
+        "parent": "atxHeading from 1:1 to 1:15"
+      },
+      {
+        "type": "atxHeadingText",
+        "startLine": 1,
+        "startColumn": 3,
+        "endLine": 1,
+        "endColumn": 15,
+        "text": "ATX style H1",
+        "children": [
+          {
+            "type": "data",
+            "startLine": 1,
+            "startColumn": 3,
+            "endLine": 1,
+            "endColumn": 15,
+            "text": "ATX style H1",
+            "children": [],
+            "parent": "atxHeadingText from 1:3 to 1:15"
+          }
+        ],
+        "parent": "atxHeading from 1:1 to 1:15"
+      }
+    ],
+    "parent": null
+  },
+  {
+    "type": "lineEnding",
+    "startLine": 1,
+    "startColumn": 15,
+    "endLine": 2,
+    "endColumn": 1,
+    "text": "\n",
+    "children": [],
+    "parent": null
+  },
+  {
+    "type": "lineEndingBlank",
+    "startLine": 2,
+    "startColumn": 1,
+    "endLine": 3,
+    "endColumn": 1,
+    "text": "\n",
+    "children": [],
+    "parent": null
+  },
+  {
+    "type": "atxHeading",
+    "startLine": 3,
+    "startColumn": 1,
+    "endLine": 3,
+    "endColumn": 16,
+    "text": "## ATX style H2",
+    "children": [
+      {
+        "type": "atxHeadingSequence",
+        "startLine": 3,
+        "startColumn": 1,
+        "endLine": 3,
+        "endColumn": 3,
+        "text": "##",
+        "children": [],
+        "parent": "atxHeading from 3:1 to 3:16"
+      },
+      {
+        "type": "whitespace",
+        "startLine": 3,
+        "startColumn": 3,
+        "endLine": 3,
+        "endColumn": 4,
+        "text": " ",
+        "children": [],
+        "parent": "atxHeading from 3:1 to 3:16"
+      },
+      {
+        "type": "atxHeadingText",
+        "startLine": 3,
+        "startColumn": 4,
+        "endLine": 3,
+        "endColumn": 16,
+        "text": "ATX style H2",
+        "children": [
+          {
+            "type": "data",
+            "startLine": 3,
+            "startColumn": 4,
+            "endLine": 3,
+            "endColumn": 16,
+            "text": "ATX style H2",
+            "children": [],
+            "parent": "atxHeadingText from 3:4 to 3:16"
+          }
+        ],
+        "parent": "atxHeading from 3:1 to 3:16"
+      }
+    ],
+    "parent": null
+  },
+  {
+    "type": "lineEnding",
+    "startLine": 3,
+    "startColumn": 16,
+    "endLine": 4,
+    "endColumn": 1,
+    "text": "\n",
+    "children": [],
+    "parent": null
+  },
+  {
+    "type": "lineEndingBlank",
+    "startLine": 4,
+    "startColumn": 1,
+    "endLine": 5,
+    "endColumn": 1,
+    "text": "\n",
+    "children": [],
+    "parent": null
+  },
+  {
+    "type": "atxHeading",
+    "startLine": 5,
+    "startColumn": 1,
+    "endLine": 5,
+    "endColumn": 17,
+    "text": "### ATX style H3",
+    "children": [
+      {
+        "type": "atxHeadingSequence",
+        "startLine": 5,
+        "startColumn": 1,
+        "endLine": 5,
+        "endColumn": 4,
+        "text": "###",
+        "children": [],
+        "parent": "atxHeading from 5:1 to 5:17"
+      },
+      {
+        "type": "whitespace",
+        "startLine": 5,
+        "startColumn": 4,
+        "endLine": 5,
+        "endColumn": 5,
+        "text": " ",
+        "children": [],
+        "parent": "atxHeading from 5:1 to 5:17"
+      },
+      {
+        "type": "atxHeadingText",
+        "startLine": 5,
+        "startColumn": 5,
+        "endLine": 5,
+        "endColumn": 17,
+        "text": "ATX style H3",
+        "children": [
+          {
+            "type": "data",
+            "startLine": 5,
+            "startColumn": 5,
+            "endLine": 5,
+            "endColumn": 17,
+            "text": "ATX style H3",
+            "children": [],
+            "parent": "atxHeadingText from 5:5 to 5:17"
+          }
+        ],
+        "parent": "atxHeading from 5:1 to 5:17"
+      }
+    ],
+    "parent": null
+  },
+  {
+    "type": "lineEnding",
+    "startLine": 5,
+    "startColumn": 17,
+    "endLine": 6,
+    "endColumn": 1,
+    "text": "\n",
+    "children": [],
+    "parent": null
+  },
+  {
+    "type": "lineEndingBlank",
+    "startLine": 6,
+    "startColumn": 1,
+    "endLine": 7,
+    "endColumn": 1,
+    "text": "\n",
+    "children": [],
+    "parent": null
+  },
+  {
+    "type": "atxHeading",
+    "startLine": 7,
+    "startColumn": 1,
+    "endLine": 7,
+    "endColumn": 18,
+    "text": "#### ATX style H4",
+    "children": [
+      {
+        "type": "atxHeadingSequence",
+        "startLine": 7,
+        "startColumn": 1,
+        "endLine": 7,
+        "endColumn": 5,
+        "text": "####",
+        "children": [],
+        "parent": "atxHeading from 7:1 to 7:18"
+      },
+      {
+        "type": "whitespace",
+        "startLine": 7,
+        "startColumn": 5,
+        "endLine": 7,
+        "endColumn": 6,
+        "text": " ",
+        "children": [],
+        "parent": "atxHeading from 7:1 to 7:18"
+      },
+      {
+        "type": "atxHeadingText",
+        "startLine": 7,
+        "startColumn": 6,
+        "endLine": 7,
+        "endColumn": 18,
+        "text": "ATX style H4",
+        "children": [
+          {
+            "type": "data",
+            "startLine": 7,
+            "startColumn": 6,
+            "endLine": 7,
+            "endColumn": 18,
+            "text": "ATX style H4",
+            "children": [],
+            "parent": "atxHeadingText from 7:6 to 7:18"
+          }
+        ],
+        "parent": "atxHeading from 7:1 to 7:18"
+      }
+    ],
+    "parent": null
+  },
+  {
+    "type": "lineEnding",
+    "startLine": 7,
+    "startColumn": 18,
+    "endLine": 8,
+    "endColumn": 1,
+    "text": "\n",
+    "children": [],
+    "parent": null
+  },
+  {
+    "type": "lineEndingBlank",
+    "startLine": 8,
+    "startColumn": 1,
+    "endLine": 9,
+    "endColumn": 1,
+    "text": "\n",
+    "children": [],
+    "parent": null
+  },
+  {
+    "type": "atxHeading",
+    "startLine": 9,
+    "startColumn": 1,
+    "endLine": 9,
+    "endColumn": 19,
+    "text": "##### ATX style H5",
+    "children": [
+      {
+        "type": "atxHeadingSequence",
+        "startLine": 9,
+        "startColumn": 1,
+        "endLine": 9,
+        "endColumn": 6,
+        "text": "#####",
+        "children": [],
+        "parent": "atxHeading from 9:1 to 9:19"
+      },
+      {
+        "type": "whitespace",
+        "startLine": 9,
+        "startColumn": 6,
+        "endLine": 9,
+        "endColumn": 7,
+        "text": " ",
+        "children": [],
+        "parent": "atxHeading from 9:1 to 9:19"
+      },
+      {
+        "type": "atxHeadingText",
+        "startLine": 9,
+        "startColumn": 7,
+        "endLine": 9,
+        "endColumn": 19,
+        "text": "ATX style H5",
+        "children": [
+          {
+            "type": "data",
+            "startLine": 9,
+            "startColumn": 7,
+            "endLine": 9,
+            "endColumn": 19,
+            "text": "ATX style H5",
+            "children": [],
+            "parent": "atxHeadingText from 9:7 to 9:19"
+          }
+        ],
+        "parent": "atxHeading from 9:1 to 9:19"
+      }
+    ],
+    "parent": null
+  },
+  {
+    "type": "lineEnding",
+    "startLine": 9,
+    "startColumn": 19,
+    "endLine": 10,
+    "endColumn": 1,
+    "text": "\n",
+    "children": [],
+    "parent": null
+  },
+  {
+    "type": "lineEndingBlank",
+    "startLine": 10,
+    "startColumn": 1,
+    "endLine": 11,
+    "endColumn": 1,
+    "text": "\n",
+    "children": [],
+    "parent": null
+  },
+  {
+    "type": "atxHeading",
+    "startLine": 11,
+    "startColumn": 1,
+    "endLine": 11,
+    "endColumn": 20,
+    "text": "###### ATX style H6",
+    "children": [
+      {
+        "type": "atxHeadingSequence",
+        "startLine": 11,
+        "startColumn": 1,
+        "endLine": 11,
+        "endColumn": 7,
+        "text": "######",
+        "children": [],
+        "parent": "atxHeading from 11:1 to 11:20"
+      },
+      {
+        "type": "whitespace",
+        "startLine": 11,
+        "startColumn": 7,
+        "endLine": 11,
+        "endColumn": 8,
+        "text": " ",
+        "children": [],
+        "parent": "atxHeading from 11:1 to 11:20"
+      },
+      {
+        "type": "atxHeadingText",
+        "startLine": 11,
+        "startColumn": 8,
+        "endLine": 11,
+        "endColumn": 20,
+        "text": "ATX style H6",
+        "children": [
+          {
+            "type": "data",
+            "startLine": 11,
+            "startColumn": 8,
+            "endLine": 11,
+            "endColumn": 20,
+            "text": "ATX style H6",
+            "children": [],
+            "parent": "atxHeadingText from 11:8 to 11:20"
+          }
+        ],
+        "parent": "atxHeading from 11:1 to 11:20"
+      }
+    ],
+    "parent": null
+  },
+  {
+    "type": "lineEnding",
+    "startLine": 11,
+    "startColumn": 20,
+    "endLine": 12,
+    "endColumn": 1,
+    "text": "\n",
+    "children": [],
+    "parent": null
+  }
+]
