@@ -1,6 +1,6 @@
 {
   "name": "markdownlint-rule-extended",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A set of custom markdownlint rules that extend official rules to standardize Markdown formatting and enhance readability.",
   "exports": {
     ".": "./index.js"
